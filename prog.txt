@@ -1,0 +1,33 @@
+import pandas as pd
+data = pd.read_excel('Documents/data.xlsx')
+print(data)
+data.set_index(['Year','Month'])
+#car sale
+cs = data.groupby('Year').sum()['Car Sale']
+x = cs.index.tolist()
+y = list()
+for i in cs:
+    y.append(i)
+from matplotlib import pyplot as plt
+plt.bar(x,y)
+
+#bike sale
+bs = data.groupby('Year').sum()['Bike Sale']
+print(bs)
+
+x1 = bs.index.tolist()
+y1 = list()
+for i in bs:
+    y1.append(i)
+plt.bar(x1,y1)
+
+#bike sale vs car sale
+x2  = data['Car Sale']
+y2 = data['Bike Sale']
+plt.scatter(x2,y2,marker = 's')
+
+
+#year wise pie
+
+plt.pie(cs)
+plt.legend(cs.index.tolist())

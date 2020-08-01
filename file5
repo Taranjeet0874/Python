@@ -1,0 +1,98 @@
+
+def create():
+    
+    index=0
+    fp=open("attendence.txt","r")
+    for each in fp:
+        each.strip().split('\n')
+        index+=1
+    fp.close()
+    fp=open("attendence.txt","a")
+    roll=str(index)
+    name=input("enter name")
+    attma=float(input("enter attendence in math (less than = 100) "))
+    if(attma>100):
+        print("enter value less than  or equal to 100")
+        quit()
+   
+    attph=float(input("enter attendence in physics (less than = 90)"))
+    if(attph>90):
+        print("enter value less than  or equal to 90  ")
+        quit()
+    
+    attche=float(input("enter attendence in chemistry (less than = 95)"))
+    if(attche>95):
+        print("enter value less than or equal to 95")
+        quit()
+    
+    attall=(((attma+attph+attche)/(100+90+95))*100)
+        
+    fp.write(roll)
+    fp.write("       \t")
+    fp.write(name)
+    fp.write("    \t")
+    fp.write(str(attma))
+    fp.write("    \t")
+    fp.write(str(attph))
+    fp.write("       \t")
+    fp.write(str(attche))
+    fp.write("     \t")
+    fp.write(str(attall))
+    fp.write("  \t")
+    fp.write("\n")
+    fp.close()
+    
+    
+        
+def viewbyroll():
+    search=int(input("enter roll no to search "))
+    index=0
+    fp=open("attendence.txt","r")
+    count=0
+    for line in fp:
+        
+        if((index)== search):
+            print(line)
+            count=count+1
+        
+        index=index+1
+    
+    fp.close()
+    if(count==0):
+        print("sorry roll no not found\n")
+
+def view():
+    fp=open("attendence.txt","r")
+    for line in fp:
+        print(line)
+    fp.close()
+
+    
+fp=open("attendence.txt","a")
+fp.close()
+index=0
+fp=open("attendence.txt","r")
+for each in fp:
+    each.strip().split('\n')
+    index+=1
+fp.close()
+if (index==0):
+    fp=open("attendence.txt","w")
+    fp.write("Roll no   \tName  \t maths(100)  \tphysics(90)  \t chemistry(95) \tTotal attendence  \n")
+    fp.close()
+
+while(1):
+    choice=(input("enter your choice \n 1 for Entering new student \n 2 for view all student list \n 3 for details of Individual student \n any key for exit\n"))
+    if(choice=="1"):
+        create()
+    elif(choice=="2"):
+        view()
+    elif(choice=="3"):
+        viewbyroll()
+    else:
+        quit()
+
+
+
+
+

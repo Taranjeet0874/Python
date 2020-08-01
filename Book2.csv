@@ -1,0 +1,30 @@
+﻿Transaction_date,Product,Price,Payment_Type,Name,City,State,Country,Age,Sex,Warranty period
+01-02-2009,Refridgerator,1100,Mastercard,carolina,Basildon,England,United Kingdom,32,m,2 Years
+01-02-2009,Washing machine,1300,Visa,Betina,Parkville                   ,MO,United States,43,f,3 Years
+01-02-2009,TV,1200,Mastercard,Federica e Andrea,Astoria                     ,OR,United States,33,m,5 Years
+01-03-2009,TV,1200,Visa,Gouya,Echuca,Victoria,Australia,33,f,5 Years
+01-04-2009,Refridgerator,1100,Visa,Gerd W ,Cahaba Heights              ,AL,United States,24,m,2 Years
+01-04-2009,Washing machine,1300,Visa,LAURENCE,Mickleton                   ,NJ,United States,57,m,3 Years
+01-04-2009,Washing machine,1300,Mastercard,Fleur,Peoria                      ,IL,United States,21,m,2 Years
+01-02-2009,Laptop,1500,Mastercard,adam,Martin                      ,TN,United States,56,f,2 Years
+01-04-2009,TV,1200,Mastercard,Renee Elisabeth,Tel Aviv,Tel Aviv,Israel,34,m,5 Years
+01-04-2009,Mobile,1400,Visa,Aidan,Chatou,Ile-de-France,France,89,m,1 Years
+01-05-2009,TV,1200,Diners,Stacy,New York                    ,NY,United States,34,m,5 Years
+01-05-2009,TV,1200,Amex,Heidi,Eindhoven,Noord-Brabant,Netherlands,23,m,5 Years
+01-02-2009,Laptop,1500,Mastercard,Sean ,Shavano Park                ,TX,United States,53,m,2 Years
+01-05-2009,TV,1200,Visa,Georgia,Eagle                       ,ID,United States,39,m,5 Years
+01-02-2009,Refridgerator,1100,Visa,Richard,Riverside                   ,NJ,United States,23,f,2 Years
+01-04-2009,Refridgerator,1100,Diners,Leanne,Julianstown,Meath,Ireland,22,f,2 Years
+01-05-2009,Washing machine,1300,Visa,Janet,Ottawa,Ontario,Canada,42,f,3 Years
+01-06-2009,Mobile,1400,Diners,barbara,Hyderabad,Andhra Pradesh,India,91,f,1 Years
+01-06-2009,Refridgerator,1100,Visa,Sabine,London,England,United Kingdom,65,m,2 Years
+01-02-2009,Laptop,1500,Diners,Hani,Salt Lake City              ,UT,United States,56,m,2 Years
+01-06-2009,TV,1200,Visa,Jeremy,Manchester,England,United Kingdom,34,f,5 Years
+01-01-2009,TV,1200,Diners,Janis,Ballynora,Cork,Ireland,45,m,5 Years
+01-05-2009,Washing machine,1300,Mastercard,Nicola,Roodepoort,Gauteng,South Africa,54,f,3 Years
+01-06-2009,TV,1200,Visa,asuman,Chula Vista                 ,CA,United States,22,f,5 Years
+01-02-2009,Laptop,1500,Mastercard,Lena,Kuopio,Ita-Suomen Laani,Finland,34,f,2 Years
+01-01-2009,TV,1200,Visa,Lisa,Sugar Land                  ,TX,United States,58,m,5 Years
+01-07-2009,Refridgerator,1100,Diners,Bryan Kerrene,New York                    ,NY,United States,43,f,2 Years
+01-02-2009,TV,1200,Visa,chris,London,England,United Kingdom,45,m,5 Years
+01-01-2009,Mobile,1400,Visa,Maxine,Morton                      ,IL,United States,56,m,1 Years
